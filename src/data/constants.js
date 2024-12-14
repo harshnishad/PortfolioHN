@@ -183,35 +183,7 @@ export const skills = [
 
 
 
-export const education = [
-  {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.41 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
-  },
-  {
-    id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
-  },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
-  },
-];
+
 
 export const projects = [
   {
@@ -221,7 +193,7 @@ export const projects = [
     description:
       "Campus Link is a MERN stack application designed to manage timetables, attendance, and user roles (admin, teacher, student). This application simplifies the administrative processes in educational institutions by providing an efficient platform for managing student information.",
     image:
-      "https://camo.githubusercontent.com/df86309a8e91af4e5567a69ae210b8d961416d69f11e6a6da4b191e4eff1785d/68747470733a2f2f692e6962622e636f2f4c4a30767430772f53637265656e73686f742d323032342d31302d30312d3130323432322e706e673f746578743d43616d7075732b4c696e6b2b42616e6e6572",
+      "https://i.ibb.co/F7hX4f9/Screenshot-2024-12-14-113317.png",
     tags: [
       "MongoDB",
       "Node Js",
@@ -231,7 +203,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/harshnishad/Campus-Link",
-    webapp: "https://campus-link-hieg.vercel.app/",
+    webapp: "https://campus-link-fronend.vercel.app/",
   },
   {
     id: 9,
@@ -250,7 +222,7 @@ export const projects = [
     webapp: "https://imdb-clone-react-js-j1tr.vercel.app/movies/top_rated",
   },
   {
-    id: 0,
+    id: 10,
     title: "WorkLive",
     date: "Apr 2023 - May 2023",
     description:
@@ -262,12 +234,18 @@ export const projects = [
     github: "https://github.com/harshnishad/Desktop-Agent-Application",
     webapp: "https://github.com/harshnishad/Desktop-Agent-Application",
   },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  {
+    id: 10,
+    title: "PLAN WITH HARSH",
+    date: "Apr 2023 - May 2023",
+    description:
+      "Welcome to Plan with Harsh, a static React application featuring beautiful travel destinations. Explore various places to inspire your next adventure!",
+    image:
+      "https://camo.githubusercontent.com/e69f2b8708811fc46c644ca8608ec3c862130b075c1f57db103b3399ae56ad18/68747470733a2f2f692e6962622e636f2f5766544463466b2f53637265656e73686f742d323032342d31302d30372d3131303235392e706e67",
+    tags: ["React Js"],
+    category: "web app",
+    github: "https://github.com/harshnishad/Plan-With-Harsh-React-",
+    webapp: "https://plan-with-harsh-react-q1zui8cnp-harshnishads-projects.vercel.app/",
+  },
+  
 ];
